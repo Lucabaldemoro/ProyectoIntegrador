@@ -1,0 +1,620 @@
+* {
+  margin: 0;
+ 
+}
+
+
+
+
+
+
+
+
+
+html {
+  font-size: 100%;
+}
+
+/* parte de navegacion*/
+
+a {
+  margin-left: 5rem;
+}
+
+header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 3.5rem;
+  width:120rem ;
+
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 2rem;
+}
+
+/* ----------------------------------------*/
+/* parte de cabezeraaaaaaaaaaaaaaaaa*/
+
+.Cabezera {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+  height: 30rem;
+  background-image: url(Imagenes/portada.webp);
+  background-repeat: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.datos {
+  font-family: "Poppins", sans-serif;
+  margin-left: 14rem;
+  font-size: 2em;
+  color: black;
+}
+
+.datos h2 {
+  margin-bottom: 1rem;
+  font-size:1.8em;
+  text-decoration: underline;
+
+}
+
+.datos p {
+  font-size: 0.5em;
+  margin-bottom: 1rem;
+  width: 40rem;
+  font-family: "Belanosima", sans-serif;
+}
+
+.Portada img {
+  height: 30rem;
+  width: 60rem;
+}
+
+#enviar {
+  height: 2.5rem;
+  width: 7.5rem;
+  border-radius: 2rem;
+}
+
+/* ----------------------------------------*/
+/* parte de quienes somoooooooooooooooooooooooooooooos*/
+
+#quienesSomos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 40rem;
+  background-color: #eff5f5;
+}
+
+#quienesSomos H2 {
+  margin-bottom: 1.5rem;
+  font-size: 2em;
+  font-family: "Belanosima", sans-serif;
+}
+
+#quienesSomos img {
+  width: 45rem;
+  height: 30rem;
+  margin-bottom: 3rem;
+}
+
+#quienesSomos P {
+  width: 40rem;
+  font-size: 1.3em;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.Descripcion {
+  margin-left: 5rem;
+}
+
+/* ----------------------------------------*/
+/* parte de ELEGIRNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOS*/
+#Elegirnos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#Elegirnos h2 {
+  padding-bottom: 120px;
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+.filas {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 200px;
+column-gap: 100px;
+row-gap: 50px;
+  flex-wrap: wrap;
+  height: 22rem;
+}
+
+#cajaDatos {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.cabesa {
+  height: 12rem;
+  margin-right: 30px;
+}
+
+.cuerpo h3 {
+  text-align: left;
+  width: 200px;
+  font-size: 1.3em;
+  padding-bottom: 30px;
+
+}
+
+
+
+.cuerpo p {
+  text-align: left;
+  width: 200px;
+  font-size: 0.8em;
+
+}
+
+
+.cabesa img {
+  width: 4rem;
+  height: 4rem;
+}
+
+/* ----------------------------------------*/
+/* parte de ELEGIRNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOS*/
+
+#Temario {
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30rem;
+  background-color: #eff5f5;
+}
+
+#Temario h2 {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+#Temario img {
+  width: 4.5rem;
+  height: 4.5rem;
+  padding: 10px;
+}
+
+.Educativa-contenedor {
+  display: grid;
+
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 80px 80px 80px;
+  column-gap: 150px;
+  row-gap: 20px;
+}
+
+.EDUCATIVA-PRINCIPAL {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid;
+  margin-left: 20px;
+  width: 20rem;
+  transition-duration: 1s;
+}
+
+.EDUCATIVA-PRINCIPAL:hover {
+  background-color: #f3f3f3;
+  transition: all 1s linear;
+  transform: translateY(-10px);
+}
+
+.EDUCATIVA-Descripcion h3 {
+  font-size: 1.3em;
+  padding-top: 20px;
+}
+
+
+
+
+/* ----------------------------------------*/
+/* parte de Noticiassssssssssssssssssssssssssssssss*/
+
+#UltimasNoticias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50rem;
+  background-color: #9bc1c8;
+}
+
+#UltimasNoticias h2 {
+  padding-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.Noticias-caja {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px;
+  column-gap: 200px;
+  row-gap: 150px;
+
+}
+
+
+
+.Noticas-Principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dcdad7;
+  width: 60rem;
+  height: 40rem;
+  border-radius: 2rem;
+}
+.Imagenes-noticia img {
+  height: 137px;
+  width: 237px;
+}
+
+.Cuepo-Noticia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition-duration: 0.5s;
+
+}
+
+.Descripcion-noticia {
+  width: 240px;
+}
+
+.Cuepo-Noticia a {
+  display: inline-block;
+  width: 220px;
+  margin: 0px;
+  font-family: "Belanosima", sans-serif;
+color:black;
+  text-decoration: none;
+
+}
+
+
+
+
+
+
+
+.Cuepo-Noticia:hover{
+  transform: translateY(-30px);
+  text-shadow: 10px 10px 20px black;
+
+}
+  
+
+
+
+
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 20rem;
+  background-color: #1f8a70;
+}
+
+footer h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+footer UL {
+  display: flex;
+  padding-left: 0px;
+  text-align: left;
+  width: 100px;
+}
+
+footer li {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+footer li img {
+  width: 40px;
+  height: 40px;
+}
+
+.formularioo h3 {
+  font-size: 1em;
+}
+
+.ELmentos-formulario {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+iframe{
+height: 10rem;
+width: 10rem;
+}
+
+
+
+
+
+
+
+
+@media  (width: 768px){
+ #quienesSomos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+
+
+
+ .Descripcion{
+display: flex;
+justify-content: center;
+align-items: center;
+
+  padding: 200px;
+  height: 100px;
+  font-size: 0.8em;
+ }
+
+}
+
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .Cabezera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .datos {
+    margin-left: 10px;
+    text-align: center;
+    height: 400px;
+  }
+
+  .datos h2 {
+    font-size: 1.4em;
+    text-transform: lowercase;
+    width: 1rem;
+  }
+
+  .datos p {
+    font-size: 0.5em;
+    width: 17rem;
+  }
+
+  /* ----------------------------------------*/
+
+  #quienesSomos {
+    display: flex;
+
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+.Descripcion h2{
+  display: inline-block;
+  padding-right: 100px;
+  width: 23rem;
+  text-align: left;
+  font-size: 1em;
+  margin-left: 100px;
+  padding-top: 100px;
+
+}
+
+
+  #quienesSomos p{
+font-size: 0.8em;
+width: 18rem;
+text-align:center ;
+}
+
+.Descripcion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 200px;
+  padding-right: 60px;
+  background-color: #9bc1c8;
+  text-align: center;
+}
+
+  .Presentacion {
+    visibility: hidden;
+  }
+
+  /* ----------------------------------------*/
+
+  #Elegirnos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    height: 300px;
+  }
+
+  #Elegirnos h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1em;
+  }
+  #Elegirnos P {
+    visibility: hidden;
+  }
+
+  #Elegirnos img {
+    width: 2rem;
+    height: 2rem;
+    padding-right: 0px;
+  }
+
+  .filas h3 {
+    font-size: 0.7em;
+    width: 6rem;
+    margin-left: -20px;
+    margin-right: 20px;
+  }
+
+  .cabesa {
+    text-align: right;
+  }
+
+  .filas {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 30px 30px 30px;
+    column-gap: 110px;
+
+    width: 20rem;
+    height: 20rem;
+    margin-right: 100px;
+    margin-left: 240px;
+  }
+
+  .cajaDatos {
+    background-color: #1f8a70;
+    border: 2px solid;
+  }
+
+  /* ----------------------------------------*/
+
+  .Educativa-contenedor {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 30px 30px;
+    grid-template-rows: 30px 30px 30px 30px 30px;
+    column-gap: 120px;
+    row-gap: 40px;
+    margin-right: 150px;
+  }
+
+  .EDUCATIVA-PRINCIPAL {
+    width: 140px;
+    height: 60px;
+  }
+
+  .EDUCATIVA-PRINCIPAL h3 {
+    display: inline-block;
+    font-size: 0.7em;
+    padding-right: 15px;
+    text-align: center;
+  }
+
+  .EDUCATIVA-PRINCIPAL p {
+    font-size: 0.4em;
+  }
+
+  /* ----------------------------------------*/
+
+  #UltimasNoticias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 800px 100px 800px 100px;
+  }
+
+  #UltimasNoticias h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 1.5em;
+  }
+
+  .Noticias-caja {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 200px 200px 200px;
+    row-gap: 30px;
+  }
+
+  /*----------------------*/
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    height: 40rem;
+  }
+
+  footer h2 {
+    font-size: 0.9em;
+  }
+
+  .Ubicasion {
+    width: 120px;
+  }
+
+  iframe {
+    width: 100px;
+    height: 100px;
+  }
+}
